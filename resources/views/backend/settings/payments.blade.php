@@ -1,0 +1,3 @@
+<div class="inner-panel">
+folgt...
+</div>

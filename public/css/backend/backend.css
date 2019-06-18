@@ -1,0 +1,85 @@
+.new_broadcaster {
+    display:none;
+}
+
+.broadcaster_table th{
+    text-align: center;
+}
+
+button.btn.btn-success.add_broadcaster {
+    margin-bottom: 20px;
+}
+
+fieldset.scheduler-border {
+    border: 1px groove rgba(221, 221, 221, 0.24) !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0;
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+    width: inherit;
+    padding: 0 10px;
+    border-bottom: none;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    width: 30px;
+    text-align: center !important;
+    padding: 5px !important;
+}
+
+.row.timeslots {
+    margin-bottom: 20px;
+}
+
+a.remove_field {
+    float: right;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -25px;
+    color: red;
+}
+
+.add_Select {
+    margin-top: 10px;
+}
+
+button.btn.btn-info.add_field_button {
+    margin-left: -20px;
+}
+
+.price_variants, .description, .links {
+    border-left: 1px groove rgba(221, 221, 221, 0.24);
+    border-right: 1px groove rgba(221, 221, 221, 0.24);
+    border-bottom: 1px groove rgba(221, 221, 221, 0.24);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+.pv_button {
+    margin-top: 20px;
+}
+
+.tooltip {
+    width: 200px;
+}
+
+
+
+.navbar-nav>li {
+    float: left;
+
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #19A3B8;
+    border-color: #19A3B8;
+}

@@ -1,0 +1,85 @@
+/**
+* @package business-cover-lite
+*/
+@media (max-width: 1100px) {
+	.mainwidth {  margin: 0 auto;  width: 100%;}
+	.banner img{width: 100%;}
+	.container{ width: 99%; padding: 0 0px; }
+	.bannerlogo {    top: 32%;    left: 30%;    right: 30%;	}
+}
+@media (max-width: 1017px) {
+	.header_left.headercommon {width: 36%;}
+	.header_right {	padding: 5px 0;}
+	.header_middle.headercommon{ text-align: right; }
+	.footcommon{ margin:0 2px; }
+	
+@media (max-width: 992px) {
+	.header_left.headercommon{ width: 100%; }
+	.header_middle.headercommon {    text-align: center;    width: 100%;}
+	.header_right.headercommon {    float: none;    width: 100%;    text-align: center;}
+	.creditlink {    float: none;    width: 100%;    text-align: center;}
+	.creditcopy {    float: none;    width: 100%;    text-align: center;}
+	.site-main {       float: none;    width: 100%;}
+	#sidebar {   float: none;width: 99%;margin: 2% auto;clear: both;}
+	.toggle a{ width: auto; }
+
+section#header{padding:0 0 11px;}
+section#header header { text-align: center;}
+.header_top .logo p {  text-align: center;}
+.col-md-4.header_right {  width: 255px;  margin: 0 auto;}
+#main_navigation .togglemenu{display: block;}
+#main_navigation .sitenav{float:none; margin:0; position:relative; overflow-x:hidden; background-color:#fff; border-radius:0; top:0; border-bottom:none; }
+#main_navigation .sitenav ul{color:#425E79; width:100% !important; float:none !important; margin:0; padding:0;}
+#main_navigation .sitenav ul li{border-top:1px #cccccc solid; display:block; float:none; text-align:left; border-bottom:none !important}
+#main_navigation .sitenav ul li a{padding:5px 10px !important; display:block; color:#425E79; border:none;}
+#main_navigation .sitenav ul li a:hover, 
+#main_navigation .sitenav ul li.current_page_item a{color:#55134E;  border:none !important;}
+#main_navigation .sitenav ul li ul, 
+#main_navigation .sitenav ul li ul ul{ display:block !important;}
+#main_navigation .sitenav ul li ul li a:before{content:"\00BB \00a0";}
+#main_navigation .sitenav ul li ul li a{padding-left:20px !important; }
+#main_navigation .sitenav ul li ul li a{ border:none;}
+#main_navigation .sitenav ul li ul li ul li a{padding-left:30px !important;}
+#main_navigation .sitenav ul li ul li ul li ul li a{padding-left:40px !important;}
+#main_navigation .sitenav ul li:hover > ul{ background:none !important; box-shadow:none;}
+#main_navigation .sitenav ul li:hover > ul{ background: transparent !important; width:auto !important; display:block; position: relative !important; left:0; right:0; top:0; padding:0;}
+#main_navigation .sitenav ul li:hover ul li ul, 
+#main_navigation .sitenav ul li:hover ul li:hover > ul, #main_navigation 
+#main_navigation .sitenav ul li:hover ul li:hover > ul li ul{  background: transparent !important; display:block; position:relative !important;  right:0; left:0; top:0;}
+#main_navigation .sitenav ul li:hover ul li:hover ul, 
+#main_navigation .sitenav ul li:hover ul li:hover ul li:hover ul{ left:0 !important;}
+.footerinner-top {   padding: 5px 0 15px;}
+}
+@media (max-width: 900px) {
+	.bannerlogo{top: 30%;left: 20%;right: 20%;}
+	}
+@media (max-width: 800px) {
+	.bannerlogo{top: 30%;left: 20%;right: 20%;}
+	.bannerlogo h1{ font-size: 30px; }
+	}
+@media (max-width: 766px) {
+	.footcommon {
+    width: 99%;
+    float: none;
+    text-align: center;
+    margin: 0 0 16px;
+    border: 1px solid #fff;
+    padding: 0 0 11px;
+}
+	footer h3 {    border-bottom: none;
+    padding: 0 0 16px 0;
+    margin: 11px 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+footer li{ list-style: none; }
+
+}
+@media (max-width: 500px) {
+.bannerlogo h1{ font-size: 25px; }
+.bannerlogo p{ font-size: 15px; }
+}
+@media (max-width: 410px) {
+.bannerlogo {	top: 22%;	left: 10%;	right: 10%;}
+}
